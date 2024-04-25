@@ -73,3 +73,4 @@ CMakeLists.txt.user*
 *.exe
 
 solutions/cppstdlib-code
+build
