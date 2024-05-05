@@ -26,13 +26,8 @@ std::shared_ptr<Person> initFamily(const std::string &name){
     std::shared_ptr<Person> kid(new Person(name, mom, dad));
     mom->kids.push_back(kid);
     dad->kids.push_back(kid);
-    std::string aaaaaa("aaaaa");
-    aaaaaa.begin();
-    Person p;
 
-    aaaaaa.begin();
-
-        return kid;
+    return kid;
 }
 
 int main()
